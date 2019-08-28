@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html id="top">
+  <head>
+    <title>Catsit</title>
+    <!--Google fonts: Lobster for display, Open Sans for body-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Lobster&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <!--Navbar-->
+    <header id="header">
+      <nav id="nav-bar">
+        <div id="brand">
+          <a href="#top"><img src="https://www.stickpng.com/assets/images/59cfc06fd3b1936210a5ddb6.png" alt="Company logo" id="header-img"></a>
+          CatSit
+        </div>
+        <ul id="nav-links">
+          <li><a href="#featureBuffer" class="nav-link">Features</a></li>
+          <li><a href="#pricingBuffer" class="nav-link">Pricing</a></li>
+          <li><a href="#contactBuffer" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <!--Top image: cat in window-->
+      <div id="topImageBox">
+        <p class="headline" id="headlineTop">Going on vacation?</p>
+        <p class="headline" id="headlineBottom">Book a room for your furry friend too!</p>
+        <img src="https://cdn.susamcreative.com/wp-content/uploads/2019/03/30205155/2019_march_wallpaper-blog_cover_image.png" id="topImage">
+      </div>
+      
+      <p id="description">CatSit makes travel easy by providing a luxurious hotel that cats can call home while their owners are away.</p>
+      
+      <!--Features Section-->
+      <div class="flexContainer">
+        <div class="navBuffer" id="featureBuffer"></div>
+        <section id="features">
+          <h2>Features</h2>
+          <div class="feature">
+            <h3>Professional Team</h3>
+              <div class="rowFlexToCol">
+                <img src="https://rognh2ijdrf1wwftkx4eici0-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/AdobeStock_93266687.jpeg" class="featureImgLeft">
+                <div class="featureText">
+                  <p>Each of our catsitters are paired with at most 2 cats. Our team consists of:</p>
+                  <ul>
+                    <li>10 full-time catsitters</li>
+                    <li>1 on-site chef</li> 
+                    <li>1 on-site groomer</li>
+                    <li>1 on-site vet</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+          <div class="feature">
+            <h3>Gourmet Pet Food</h3>
+            <div class="rowFlexToCol">
+              <p>Our on-site chefs prepare delicious, well-balanced meals according to your cat's dietary needs. You can also bring your own food.</p>
+              <img src="https://d32l83enj9u8rg.cloudfront.net/wp-content/uploads/what-do-cats-eat-article-1.jpg" class="featureImgRight">
+            </div>
+          </div>
+          <div class="feature">
+            <h3>Indoor/Outdoor Common Areas</h3>
+            <div class="rowFlexToCol">
+              <img src="https://www.fetchpetcare.com/wp-content/uploads/2017/09/catio-cat-enclosure-diy-catio-plan-sanctuary-smith-catispaces-Crop.jpg" alt="An outdoor cat enclosure with wire netting" class="featureImgLeft">
+              <div class="colFlex">
+                <p>Our indoor rooms are outfitted with cat shelves. Cats have a variety of CatSit-provided toys to play with in addition to the ones brought from home.</p>
+                <p>Our outdoor playspace is fully fenced. Cats are always supervised in the outdoor area.</p>
+              </div>
+            </div>
+          </div>
+          <div class="feature">
+            <h3>Live Video Feed</h3>
+            <p>Ever wonder what your cat does when you're not there? With regular and night-vision cameras in every room as well as an optional GoPro harness, you can see what your cats are up to at any time. GoPro videos are available for download at an extra cost.</p>
+            <div class="iframeContainer">
+              <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/6M-VKjtlaL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <p style="text-align: center; padding: 0 10%;">Everyone deserves a good vacation. Cats do too! Book now!</p>
+        </section>
+      </div>
+    
+      <!--Pricing Section-->
+      <div class="flexContainer">
+        <div class="navBuffer" id="pricingBuffer"></div>
+        <h2>Pricing</h2>
+        <section id="planFlex">
+          <div class="plan" id="regularPlan">
+            <h3 class="planTitle">Regular</h3>
+            <ul class="planFeatures">
+              <li>Pick Your Catsitter</li>
+              <li>24/7 Text Check-Ups</li>
+              <li>Check-In 9AM-5PM</li>
+              <li>Check-Out 9AM-5PM</li>
+              <li>Room Camera Feed</li>
+              <li>Bring One Toy</li>
+              <li>Claw Trimming</li>
+            </ul>
+            <p class="planPrice">$60/Night</p>
+          </div>
+          <div class="plan" id="elitePlan">
+            <h3 class="planTitle">Elite</h3>
+            <ul class="planFeatures">
+              <li>Pick Your Catsitter</li>
+              <li>24/7 Text Check-Ups</li>
+              <li>Check-In Any Time</li>
+              <li>Check-Out Any Time</li>
+              <li>Room Camera Feed</li>
+              <li>Bring Up To 3 Toys</li>
+              <li>Claw Trimming</li>
+              <li>Cat Collar Cam</li>
+            </ul>
+            <p class="planPrice">$70/Night</p>
+          </div>
+          <div class="plan" id="premierPlan">
+            <h3 class="planTitle">Premire</h3>
+            <ul class="planFeatures">
+              <li>Pick Your Catsitter</li>
+              <li>24/7 Text Check-Ups</li>
+              <li>Check-In Any Time</li>
+              <li>Check-Out Any Time</li>
+              <li>Room Camera Feed</li>
+              <li>Bring Up to 5 Toys</li>
+              <li>Claw Trimming, Cat Salon</li>
+              <li>Cat Collar Cam</li>
+              <li>Pet Pick-Up and Drop-Off</li>
+            </ul>
+            <p class="planPrice">$80/Night</p>
+          </div>
+        </section>
+      </div>
+      
+      <!--Contact Section-->
+      <div class="flexContainer">
+        <div class="navBuffer" id="contactBuffer"></div>
+        <section id="contact">
+          <h2>Contact Us</h2>
+          <p>Need more info? Want to make an appointment? Call, email, or fill out our online form to get in touch with us!</p>
+          <div id="contactSplit">
+            <div id="contactLeft">
+              <p><strong>Office Hours</strong>: 9AM-5PM Daily</p>
+              <p><strong>Location</strong>: 123 South Paw Rd, Santa Ana, CA 99999</p>
+              <p><strong>Email</strong>: contactCatSit@gmail.com</p>
+              <p><strong>Phone</strong>: (xxx) xxx-xxxx</p>
+            </div>
+          
+            <!--Email Form-->
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <label for="email"><strong>Your Email:</strong></label>
+              <input type="email" id="email" name="email" placeholder="JDoe123@gmail.com">
+              <br>
+              <label for="emailText"><strong>Ask Us Anything:</strong></label>
+              <textarea name="emailText" rows="5" columns="10">
+              </textarea>
+              <br>
+              <input type="submit" id="submit" value="Send">
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+    
+    <footer id="footer">
+      <p id="disclaimer">All names, products, forms and contact information  on this page are fake.</p>
+    </footer>
+  </body>
+</html>
+
+<!--FCC Tests appear as a green hamburger menu icon on the upper left corner.-->
+<!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
